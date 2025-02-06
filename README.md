@@ -1,8 +1,8 @@
-Sistema Bancário em Python
+# Sistema Bancário em Python
 
 Este projeto implementa um sistema bancário simples em Python, permitindo ao usuário realizar operações básicas como saque, depósito e consulta de extrato.
 
-Funcionalidades
+## Funcionalidades
 
 Sacar
 
@@ -36,7 +36,7 @@ Exibe todos os depósitos e saques realizados.
 
 Mostra o saldo atual da conta.
 
-Como Utilizar
+## Como Utilizar
 
 Execute o script Python.
 
@@ -50,7 +50,7 @@ Escolha uma das opções do menu:
 
 4 para Sair.
 
-Insira os valores conforme solicitado pelo sistema.
+## Insira os valores conforme solicitado pelo sistema.
 
 O sistema validará as regras antes de confirmar a transação.
 
@@ -60,26 +60,20 @@ Classe Banco
 
 Responsável por gerenciar o saldo e transações.
 
-Métodos:
+## Métodos:
 
-sacar(valor): Processa saques e verifica regras.
+- sacar(valor): Processa saques e verifica regras.
 
-depositar(valor): Processa depósitos e verifica regras.
+- depositar(valor): Processa depósitos e verifica regras.
 
-extrato(): Exibe todas as movimentações do dia.
+- extrato(): Exibe todas as movimentações do dia.
 
-menu(): Interface de interação com o usuário.
+- menu(): Interface de interação com o usuário.
 
-Exemplo de Uso
 
-banco = Banco()
-banco.menu()
-
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 Python 3
 
-Autor
 
-Desenvolvido por Kelven Silva 🚀
 
